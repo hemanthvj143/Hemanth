@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    header {
+        display: grid;
+        background-color: #000;
+        color: #fff;
+    }
+    .grid {
+        grid-template-columns: 40px 50px auto 50px 40px;
+        grid-template-rows: 25% 50px auto;
+        display: grid;
+        grid-template-columns:red;
+    }
+    .list {
+        grid-template-rows: [row1-start] 25% [row1-end row2-start] 25% [row2-end];
+    }
+    .container {
+  display: grid;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background: rgba(114, 186, 94, 0.05);
+  grid-gap: 10px;
+}
+.item {
+  background: rgba(255, 213, 70, 0.4);
+  border: 2px dashed rgba(236, 198, 48, 0.5);
+}
+    </style>  
+
+</head>
+<body>
+    <header class="page_header">
+            <div class="container">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                  </div>
+    </header>
+    
+</body> 
+</html>
