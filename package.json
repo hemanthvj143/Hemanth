@@ -31,7 +31,7 @@
     "datatables.net": "^1.10.20",
     "datatables.net-dt": "^1.10.20",
     "gulp-html-minifier": "^0.1.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material-datatable": "^0.4.0"
   }
 }
